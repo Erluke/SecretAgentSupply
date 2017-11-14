@@ -1,0 +1,33 @@
+html{
+  max-width: 960px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+header {
+  color: white;
+  font-size: 1rem;
+  font-family: Helvetica;
+  background-color: black;
+
+}
+header img{
+  margin-left: 0.5rem;
+  height: 1.5rem;
+  width: auto;
+}
+header span{
+  margin: 0.66rem 0 0.66rem 1rem;
+}
+.banner {
+  height: 25rem;
+  max-height: 25rem;
+  background-image: url("../images/moto.jpeg")
+}
+.banner.banner-text{
+  padding-top: 9rem;
+}
+.banner-text {
+  width: 20rem;
+  padding-top: 9rem;
+  background-color: black;
+}
