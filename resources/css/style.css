@@ -51,6 +51,21 @@ header span{
   font-size: 2rem;
   font-weight: bold;
 }
+#alt-menu{
+  display: none;
+  height: 2.5rem;
+  background-color: firebrick;
+  text-align: center;
+  padding-top: 0.75rem;
+}
+#alt-menu a:link{
+  color: white;
+  text-decoration: none;
+}
+#alt-menu a:visited {
+  color: white;
+  text-decoration: none;
+}
 nav {
   height: 2.5rem;
   background-color: firebrick;
@@ -119,4 +134,12 @@ footer {
 
 }
 footer span{
+}
+@media screen and (max-width: 1024px) {
+#alt-menu{
+  display: block;
+}
+nav {
+  display: none;
+}
 }
