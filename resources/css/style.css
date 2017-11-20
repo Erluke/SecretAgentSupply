@@ -157,3 +157,51 @@ font-size: 1.75rem;
   height: auto;
 }*/
 }
+@media screen and (max-width: 470px) {
+  .banner {
+    height: 15rem;
+  }
+  .banner-text {
+  height: 5rem;
+  top: 10rem;
+  left:0;
+  }
+  .banner-text span{
+    font-size: 0.77rem;
+    position: relative;
+    top: 1rem;
+    left: 2rem;
+  }
+  .banner-text h1 {
+    font-size: 1rem;
+    position: relative;
+    left: 2rem;
+    top: 1rem;
+  }
+  .watch {
+    display: none;
+  }
+  .gadget-images {
+    margin: 0 auto;
+  }
+  .gadget-descriptions {
+    margin: 0 auto;
+  }
+  #info {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .hours {
+    margin-top: 0.5rem;
+  }
+  footer {
+    text-align: center;
+  }
+  header{
+    display: flex;
+    justify-content: center;
+  }
+  header span {
+    display: none;
+  }
+}
